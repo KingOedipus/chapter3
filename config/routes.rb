@@ -1,4 +1,6 @@
 Chapter3::Application.routes.draw do
-  get "static_page/home"
-  get "static_page/help"
-end
+  get "static_pages/home"
+
+  get "static_pages/help"
+
+  get "static_page/home"end
